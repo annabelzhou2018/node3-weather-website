@@ -1,7 +1,9 @@
 const weatherForm = document.querySelector ('form');
 const search = document.querySelector ('input');
 const messageOne = document.querySelector ('#message-1');
-const messageTwo = document.querySelector ('#message-2');
+const messageTwo = document.querySelector('#message-2');
+
+var fetch = require("node-fetch");
 
 weatherForm.addEventListener ('submit', e => {
   e.preventDefault ();
